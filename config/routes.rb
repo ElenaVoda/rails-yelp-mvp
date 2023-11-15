@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  # A visitor can see the list of all restaurants.
+  get "restaurants", to: "restaurants#index"
 end
